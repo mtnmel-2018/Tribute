@@ -3,18 +3,18 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'cursive', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #09746e;
+    background-color: #04423f;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f5f0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #beddbe;
+    box-shadow: 0 0 10px rgba(190, 196, 176, 0.1);
     border-radius: 8px;
 }
 
@@ -44,7 +44,7 @@ body {
 .quote {
     font-style: italic;
     margin-top: 20px;
-    color: #777;
+    color: #07c777;
 }
 
 ul {
