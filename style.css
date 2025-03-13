@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'cursive', sans-serif;
+    font-family: 'cursive', cursive;
     margin: 0;
     padding: 0;
     background-color: #04423f;
@@ -13,7 +13,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #beddbe;
+    background-color: #ebeeeb;
     box-shadow: 0 0 10px rgba(190, 196, 176, 0.1);
     border-radius: 8px;
 }
@@ -44,7 +44,7 @@ body {
 .quote {
     font-style: italic;
     margin-top: 20px;
-    color: #07c777;
+    color: #465a52;
 }
 
 ul {
