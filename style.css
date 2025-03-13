@@ -28,13 +28,13 @@ body {
 
 .title {
     font-family: 'Roboto', cursive; /* Change to the desired font */
-    color: #fdf5f5;
+    color: #8e9497;
     font-size: 2em;
     margin-bottom: 10px;
 }
 
 .subtitle {
-    color: #f7e6e6;
+    color: #576568;
     font-size: 1.2em;
 }
 
@@ -48,7 +48,7 @@ body {
 .quote {
     font-style: italic;
     margin-top: 20px;
-    color: #f3f7f5;
+    color: #62776d;
 }
 
 ul {
@@ -78,7 +78,7 @@ footer {
 #tribute-link {
     color: #e7e2ca;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Responsive Design */
