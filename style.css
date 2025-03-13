@@ -6,8 +6,8 @@ body {
     font-family: 'cursive', cursive;
     margin: 0;
     padding: 0;
-    background-color: #8b4e68; /* Fallback color */
-    background-image: url('Flowers.jpg'); /* Set the background image */
+    background-color: #596d65; /* Fallback color */
+    background-image: image(blossom.jpg); /* Set the background image */
     background-size: cover; /* Ensures the background covers the entire area */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the background from repeating */
@@ -63,7 +63,7 @@ li {
 blockquote {
     font-style: italic;
     margin-top: 20px;
-    color: #d5ecbb;
+    color: #0c1403;
 }
 
 footer {
