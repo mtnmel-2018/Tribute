@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #596d65; /* Fallback color */
-    background-image: image(blossom.jpg); /* Set the background image */
+    background-image: url(blossom.jpg); /* Set the background image */
     background-size: cover; /* Ensures the background covers the entire area */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the background from repeating */
@@ -70,13 +70,13 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: rgba(60, 110, 110, 0.9); /* Slightly transparent for effect */
+    background-color: rgba(104, 72, 90, 0.9); /* Slightly transparent for effect */
     color: #fff;
     border-radius: 0 0 8px 8px;
 }
 
 #tribute-link {
-    color: #fcf1b8;
+    color: #e7e2ca;
     text-decoration: none;
     font-weight: bold;
 }
