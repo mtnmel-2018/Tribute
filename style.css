@@ -70,7 +70,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: rgba(104, 72, 90, 0.9); /* Slightly transparent for effect */
+    background-color: rgb(79, 100, 101, 0.9); /* Slightly transparent for effect */
     color: #fff;
     border-radius: 0 0 8px 8px;
 }
