@@ -27,10 +27,11 @@ body {
 }
 
 .title {
-    font-family: 'Roboto', cursive; /* Change to the desired font */
-    color: #8e9497;
-    font-size: 2em;
+    font-family: 'Dancing Script', cursive; /* Use a specific cursive font */
+    color: #855766;
+    font-size: 2.5em; /* Base font size */
     margin-bottom: 10px;
+    text-align: center; /* Center the title */
 }
 
 .subtitle {
@@ -76,7 +77,7 @@ footer {
 }
 
 #tribute-link {
-    color: #e7e2ca;
+    color: #e78e7e;
     text-decoration: none;
     font-weight: normal;
 }
