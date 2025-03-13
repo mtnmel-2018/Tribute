@@ -1,19 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'serif',Arial, Helvetica, sans-serif;
+    font-family: 'cursive', cursive;
     margin: 0;
     padding: 0;
-    background-color: #8b4e68;
+    background-color: #8b4e68; /* Fallback color */
+    background-image: url('Flowers.jpg'); /* Set the background image */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ebeeeb;
+    background-color: rgba(235, 238, 235, 0.9); /* Slightly transparent background for readability */
     box-shadow: 0 0 10px rgba(190, 196, 176, 0.1);
     border-radius: 8px;
 }
@@ -23,6 +27,7 @@ body {
 }
 
 .title {
+    font-family: 'Roboto', cursive; /* Change to the desired font */
     color: #fdf5f5;
     font-size: 2em;
     margin-bottom: 10px;
@@ -33,12 +38,11 @@ body {
     font-size: 1.2em;
 }
 
-.img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.responsive-img {
+    max-width: 50%; /* Set max-width to 50% or any other desired percentage */
+    height: auto;     /* Maintains the aspect ratio */
+    display: block;   /* Removes any inline spacing (like beneath an inline image) */
+    margin: 0 auto;   /* Centers the image if it's a block-level element */
 }
 
 .quote {
@@ -66,8 +70,8 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #3a525a;
-    color: #e5ebf7;
+    background-color: rgba(60, 110, 110, 0.9); /* Slightly transparent for effect */
+    color: #fff;
     border-radius: 0 0 8px 8px;
 }
 
@@ -76,7 +80,6 @@ footer {
     text-decoration: none;
     font-weight: bold;
 }
-
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
@@ -92,18 +95,7 @@ footer {
         font-size: 1em;
     }
 
-    .img {
-        margin-top: 10px;
-    }
-
     .responsive-img {
-        max-width: 50%;  /* Ensures the image doesn't exceed its container's width */
-        height: auto;     /* Maintains the aspect ratio */
-        display: block;   /* Removes any inline spacing (like beneath an inline image) */
-        margin: 0 auto;  /* Centers the image if it's a block-level element */
+        max-width: 100%; /* Adjusts image size for smaller screens */
     }
-    
-
-
-
 }
